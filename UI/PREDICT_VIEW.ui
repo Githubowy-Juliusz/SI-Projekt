@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>622</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <widget class="QPushButton" name="next_button">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>470</y>
+      <width>250</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Następny</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="return_button">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>520</y>
+      <width>250</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Powrót</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>304</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="previous_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>250</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Poprzedni</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>580</width>
+      <height>380</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="prediction_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>560</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To pewnie</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

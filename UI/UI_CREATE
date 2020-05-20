@@ -1,0 +1,2 @@
+pyuic5 -x MAIN_VIEW.ui -o MainView.py
+pyuic5 -x PREDICT_VIEW.ui -o PredictView.py
